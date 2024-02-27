@@ -11,6 +11,7 @@ import {
 import InterestsCard from "./InterestsCard";
 import { interestsData } from "../../utils/constants";
 import { RevealWrapper } from "next-reveal";
+import Skills from "../skills/page";
 
 const Page = () => {
   return (
@@ -30,7 +31,7 @@ const Page = () => {
             >
               <Image
                 objectFit="shrink"
-                src="/images/profile.png"
+                src="/images/me.png"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
@@ -39,11 +40,11 @@ const Page = () => {
 
               <Box textAlign="justify">
                 <Heading size="xl" mb={3}>
-                  👋 Hey there
+                  Hey there
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
+                  I&apos;m <span className="name">Ming Chen</span>, a passionate
                   software developer. I specialize in{" "}
                   <span className="tech">Web Development</span>, crafting
                   seamless user experiences and robust backend solutions. With a
@@ -54,23 +55,27 @@ const Page = () => {
                 </Text>
                 <br />
                 <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
+                  Open to collaborations and exciting projects, I&apos;m eager
+                  to connect with fellow developers and tech enthusiasts.
                   Let&apos;s build something amazing together!
                 </Text>
                 <Text>
-                  Happy coding! 🖥️
+                  Happy coding!
                   <br />
                 </Text>
               </Box>
             </SimpleGrid>
           </RevealWrapper>
+
+          <Skills />
+
           <RevealWrapper className="load-hidden" id="interests" delay={600}>
-            <Heading className="sub-heading" size="md" my={3}>
+            <Heading className="sub-heading" size="md" my={4}>
               INTERESTS
             </Heading>
             <SimpleGrid
               spacing={4}
+              my={4}
               templateColumns="repeat(auto-fill, minmax(270px, 1fr))"
             >
               {interestsData.map((data, index) => {

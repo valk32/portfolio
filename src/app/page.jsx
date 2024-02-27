@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
+      strings: ["Ming Chen", "Fullstack Developer"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -51,7 +51,7 @@ export default function Home() {
           <RevealWrapper className="load-hidden" delay={300}>
             <Image
               objectFit="shrink"
-              src="/images/ar-profile-transformed.png"
+              src="/images/favicon.png"
               alt="profile-image"
               width={["13rem", "13rem", "15rem"]}
               height={["13rem", "13rem", "15rem"]}
@@ -80,7 +80,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Ming
               </Heading>
 
               <Heading
@@ -88,7 +88,7 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Chen
               </Heading>
             </Flex>
           </RevealWrapper>
@@ -97,9 +97,9 @@ export default function Home() {
               I &apos;m <span className="typed-text" ref={typedTextRef}></span>
             </Heading>
           </RevealWrapper>
-          <RevealWrapper className="load-hidden" delay={700}>
+          {/* <RevealWrapper className="load-hidden" delay={700}>
             <SocialIcons />
-          </RevealWrapper>
+          </RevealWrapper> */}
         </Flex>
       </Center>
     </>

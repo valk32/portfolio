@@ -10,6 +10,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaVuejs,
 } from "react-icons/fa";
 
 import {
@@ -26,6 +27,21 @@ import {
   SiPostman,
   SiGnubash,
   SiNextdotjs,
+  SiTensorflow,
+  SiBlockchaindotcom,
+  SiDjango,
+  SiElectron,
+  SiTailwindcss,
+  SiNativescript,
+  SiVuedotjs,
+  SiGraphql,
+  SiLaravel,
+  SiWordpress,
+  SiMongodb,
+  SiMysql,
+  SiRedis,
+  SiSvelte,
+  SiFlutter,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode } from "react-icons/fa6";
@@ -43,12 +59,12 @@ import { FcElectronics } from "react-icons/fc";
 export const links = [
   { text: "Home", path: "/" },
   { text: "About", path: "/about" },
-  { text: "Skills", path: "/skills" },
+  // { text: "Skills", path: "/skills" },
   { text: "Projects", path: "/projects" },
   { text: "Experience", path: "/experience" },
-  { text: "Blogs", path: "/blogs" },
+  // { text: "Blogs", path: "/blogs" },
   { text: "Contact", path: "/contact" },
-  { text: "Resume", path: "/resume" },
+  // { text: "Resume", path: "/resume" },
 ];
 
 export const interestsData = [
@@ -56,18 +72,18 @@ export const interestsData = [
     interest: "Software Engineering",
     icon: BsCodeSlash,
   },
-  {
-    interest: "Tech Blog",
-    icon: FaHashnode,
-  },
+  // {
+  //   interest: "Tech Blog",
+  //   icon: FaHashnode,
+  // },
   {
     interest: "Internet of Things",
     icon: FcElectronics,
   },
-  {
-    interest: "Market Research",
-    icon: GiArchiveResearch,
-  },
+  // {
+  //   interest: "Market Research",
+  //   icon: GiArchiveResearch,
+  // },
   {
     interest: "Visualization",
     icon: BsFileBarGraph,
@@ -76,14 +92,16 @@ export const interestsData = [
     interest: "Software Development",
     icon: AiFillCode,
   },
-  {
-    interest: "Robotics",
-    icon: BsRobot,
-  },
-  {
-    interest: "Web Scraping",
-    icon: BsGlobe,
-  },
+  // {
+  //   interest: "Robotics",
+  //   icon: BsRobot,
+  // },
+  // {
+  //   interest: "Web Scraping",
+  //   icon: BsGlobe,
+  // },
+  { interest: "Blockchain", icon: SiBlockchaindotcom },
+  { interest: "AI, ML", icon: SiTensorflow },
 ];
 
 export const skillsData = [
@@ -99,29 +117,53 @@ export const skillsData = [
     name: "Javascript",
     icon: TbBrandJavascript,
   },
-  {
-    name: "Jquery",
-    icon: BiLogoJquery,
-  },
+  // {
+  //   name: "Jquery",
+  //   icon: BiLogoJquery,
+  // },
   {
     name: "Typescript",
     icon: TbBrandTypescript,
   },
-  {
-    name: "SASS",
-    icon: FaSass,
-  },
+  // {
+  //   name: "SASS",
+  //   icon: FaSass,
+  // },
   {
     name: "Bootstrap",
     icon: TbBrandBootstrap,
   },
   {
-    name: "C/C++",
-    icon: TbBrandCpp,
+    name: "Tailwind",
+    icon: SiTailwindcss,
   },
   {
     name: "Python",
     icon: FaPython,
+  },
+  {
+    name: "Django",
+    icon: SiDjango,
+  },
+  {
+    name: "Laravel",
+    icon: SiLaravel,
+  },
+  {
+    name: "Wordpress",
+    icon: SiWordpress,
+  },
+  {
+    name: "NodeJs",
+    icon: FaNodeJs,
+  },
+  // {
+  //   name: "PugJs",
+  //   icon: SiPug,
+  // },
+  {
+    name: "Express",
+    icon: SiExpress,
   },
   {
     name: "ReactJS",
@@ -132,96 +174,143 @@ export const skillsData = [
     icon: SiNextdotjs,
   },
   {
+    name: "Electron",
+    icon: SiElectron,
+  },
+  {
+    name: "Svelte",
+    icon: SiSvelte,
+  },
+  {
+    name: "Vue",
+    icon: SiVuedotjs,
+  },
+  // {
+  //   name: "Flutter",
+  //   icon: SiFlutter,
+  // },
+  {
     name: "Redux",
     icon: TbBrandRedux,
   },
   {
-    name: "NodeJs",
-    icon: FaNodeJs,
-  },
-  {
-    name: "PugJs",
-    icon: SiPug,
-  },
-  {
-    name: "Express",
-    icon: SiExpress,
+    name: "GraphQL",
+    icon: SiGraphql,
   },
   {
     name: "Docker",
     icon: FaDocker,
   },
   {
+    name: "MySQL",
+    icon: SiMysql,
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    name: "Redis",
+    icon: SiRedis,
+  },
+  {
     name: "Postgres",
     icon: BiLogoPostgresql,
   },
-  {
-    name: "Postman",
-    icon: SiPostman,
-  },
+  // {
+  //   name: "Postman",
+  //   icon: SiPostman,
+  // },
   {
     name: "Git",
     icon: BsGit,
   },
-  {
-    name: "Github",
-    icon: FaGithub,
-  },
+  // {
+  //   name: "Github",
+  //   icon: FaGithub,
+  // },
   {
     name: "ChatGPT",
     icon: GiArtificialIntelligence,
   },
-  {
-    name: "Bash",
-    icon: SiGnubash,
-  },
-  {
-    name: "Markdown",
-    icon: BsMarkdown,
-  },
+  // {
+  //   name: "Bash",
+  //   icon: SiGnubash,
+  // },
+  // {
+  //   name: "Markdown",
+  //   icon: BsMarkdown,
+  // },
 ];
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "Upwork",
+    designation: "Work as freelancer",
+    duration: "December 2022 - July 2023",
+    companyImg: "upwork.svg",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+            Improved modularity and reusability of 2 large React front-end
+            applications by refactoring the codebase with TypeScript, Node.js,
+            and Express.
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
+            Integrated over 110 REST/GraphQL APIs into the UI to enable seamless
+            communication with the backend.
           </li>
         </ul>
       </>
     ),
   },
   {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    company: "Crowdworks",
+    designation: "Work as freelancer",
+    duration: "August 2020 – November 2022",
+    companyImg: "crowdworks.svg",
     description: (
       <>
         <ul>
           <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
+            Utilized React to build dynamic and interactive user interfaces,
+            employing components, state management, and virtual DOM
+            manipulation.
           </li>
           <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
+            Developed robust back-end systems using Laravel, leveraging MVC
+            architecture, routing, database migrations, and ORM. Additionally,
+            designed customizable and user-friendly websites using WordPress,
+            incorporating themes, plugins, and customizations.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Kaamugu Sdn Bhd",
+    designation: "Junior fullstack developer",
+    duration: "June 2019 – July 2020",
+    companyImg: "kaamugu-sdn-bhd.png",
+    description: (
+      <>
+        <ul>
+          <li>
+            Collaborated with a small development team to build and maintain web
+            applications using modern front-end technologies such as HTML, CSS,
+            and JavaScript frameworks like React.
+          </li>
+          <li>
+            Assisted in back-end development using Python and Django framework,
+            implementing RESTful APIs and database integration to deliver
+            efficient and scalable solutions.
+          </li>
+          <li>
+            Actively participated in code reviews, debugging, and
+            troubleshooting to ensure the quality and functionality of web
+            applications while continuously enhancing technical skills in web
+            development.
           </li>
         </ul>
       </>
@@ -232,108 +321,107 @@ export const workData = [
 export const projectsData = [
   {
     type: "WEB-APP",
-    title: "Movie Magnet",
-    image: "movie-magnet",
-    link: "https://movie-magnet-smoky.vercel.app/",
-    source: "https://github.com/vaheedsk36/movie-magnet",
+    title: "Malaysia Digital Economy Corporation",
+    image: "mdec",
+    link: "https://mdec.my/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Portfolio Website",
-    image: "portfolio-website",
-    link: null,
-    source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
+    title: "SEDA",
+    image: "seda",
+    link: "https://www.seda.xyz/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Weather App",
-    image: "weather-app",
-    link: "https://vaheedsk36.github.io/weather-app/",
-    source: "https://github.com/vaheedsk36/weather-app",
+    title: "J-V DESIGN",
+    image: "J-V DESIGN",
+    link: "https://www.j-vdesign.com/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Landing Page",
-    image: "landing-page",
-    link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-    source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
+    title: "Tricia Gillespie, Realtor",
+    image: "triciagillespie",
+    link: "https://triciagillespie.com/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Guess Game",
-    image: "guess-game",
-    link: "https://vaheedsk36.github.io/guess-my-number",
-    source: "https://github.com/vaheedsk36/guess-my-number",
+    title: "Harley Academy",
+    image: "harley",
+    link: "https://www.harleyacademy.com/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Notes App",
-    image: "react-notes-app",
-    link: "https://vaheedsk36.github.io/react-notes-app/",
-    source: "https://github.com/vaheedsk36/react-notes-app",
+    title: "Bright Purifying",
+    image: "everbrightpurifying",
+    link: "https://www.everbrightpurifying.com/",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Dice Multiplayer",
-    image: "dice-multiplayer",
-    link: "https://vaheedsk36.github.io/dice-multiplayer",
-    source: "https://github.com/vaheedsk36/dice-multiplayer",
+    title: "Online Shopping For Men, Women And Kids",
+    image: "juno1965",
+    link: "https://juno1965.com/",
+    source: null,
   },
-  {
-    type: "PROJECT",
-    title: "Snake Game",
-    image: "snake-game",
-    link: "https://vaheedsk36.github.io/Snake-game",
-    source: "",
-  },
-  {
-    type: "PROJECT",
-    title: "Delta Assistant",
-    image: "delta-assistant",
-    link: "",
-    source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
-  },
-  {
-    type: "WEB-APP",
-    title: "Text Utility App",
-    image: "text-utility-app",
-    link: "https://vaheedsk36.github.io/text-utility-app/",
-    source: "https://github.com/vaheedsk36/text-utility-app",
-  },
+  // {
+  //   type: "WEB-APP",
+  //   title: "Snake Game",
+  //   image: "snake-game",
+  //   link: "https://vaheedsk36.github.io/Snake-game",
+  //   source: "",
+  // },
+  // {
+  //   type: "WEB-APP",
+  //   title: "Delta Assistant",
+  //   image: "delta-assistant",
+  //   link: "",
+  //   source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
+  // },
+  // {
+  //   type: "WEB-APP",
+  //   title: "Text Utility App",
+  //   image: "text-utility-app",
+  //   link: "https://vaheedsk36.github.io/text-utility-app/",
+  //   source: "https://github.com/vaheedsk36/text-utility-app",
+  // },
 ];
-
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
+    href: "https://github.com/valk32",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.instagram.com/codersk36/",
+    href: "https://www.instagram.com/valk32",
     icon: FaInstagram,
     backgroundColor: "social.instagram",
     hoverColor: "social.instagramHover",
   },
   {
-    href: "https://www.linkedin.com/in/sk36/",
+    href: "https://www.linkedin.com/valk32",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
   },
   {
-    href: "https://twitter.com/codersk36",
+    href: "https://twitter.com/valk32",
     icon: FaTwitter,
     backgroundColor: "social.twitter",
     hoverColor: "social.twitterHover",
   },
-  {
-    href: "https://codersk36.hashnode.dev/",
-    icon: FaHashnode,
-    backgroundColor: "social.hashnode",
-    hoverColor: "social.hashnodeHover",
-  },
+  // {
+  //   href: "https://codersk36.hashnode.dev/",
+  //   icon: FaHashnode,
+  //   backgroundColor: "social.hashnode",
+  //   hoverColor: "social.hashnodeHover",
+  // },
 ];
 
 export const query = `

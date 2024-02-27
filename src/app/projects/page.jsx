@@ -37,7 +37,7 @@ const Projects = () => {
           PROJECTS
         </Heading>
 
-        <Flex {...group} w="100%" px="6" py="5" align="center" justify="center">
+        {/* <Flex {...group} w="100%" px="6" py="5" align="center" justify="center">
           <HStack>
             {options.map((value) => {
               const radio = getRadioProps({ value });
@@ -48,7 +48,7 @@ const Projects = () => {
               );
             })}
           </HStack>
-        </Flex>
+        </Flex> */}
         <RevealWrapper delay={300}>
           <SimpleGrid
             spacing={4}
