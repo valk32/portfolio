@@ -1,8 +1,4 @@
-# ⭐ Personal Portfolio Website ⭐
-
-> [Deployed here](https://vaheedshaik.tech/)
-
-⭐ Star me on GitHub and do follow ⭐
+# Personal Portfolio Website
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/vaheedsk36/portfolio-website-nextjs/commits/main)
 [![Website](https://img.shields.io/badge/website-up-yellow)](https://vaheedshaik.tech/)
@@ -20,7 +16,7 @@
 - Don't claim this work as you origin, wherever you post it
 - Give due credits to me wherever you are showcasing this project
 
-## Tech Stack and Services Used 🛠️
+## Tech Stack and Services Used
 
 Explore the technologies and services that power this portfolio:
 
@@ -30,7 +26,7 @@ Explore the technologies and services that power this portfolio:
 ![Google Analytics](https://img.shields.io/badge/Google%20Analytics-E37400?style=flat&logo=google%20analytics&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-## Setup & Deployment Instructions 🚀
+## Setup & Deployment Instructions
 
 Follow these steps to set up and deploy your own portfolio:
 
@@ -41,7 +37,7 @@ Follow these steps to set up and deploy your own portfolio:
 5. Store you secret keys by in a `.env` file for ref see `.env.sample`
 6. For deployment, follow these [instructions](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)
 
-## Sections 📚
+## Sections
 
 Explore different sections of my profile:
 
@@ -53,7 +49,7 @@ Explore different sections of my profile:
 - **📝 Blogs**
 - **📬 Contact**
 
-## Contributing 💡
+## Contributing
 
 To contribute, follow these steps:
 
@@ -72,4 +68,4 @@ When you're ready, create a new pull request to merge your changes:
 - 🔃 Push your changes to your forked repo.
 - 👀 Await review and address any feedback.
 
-Thank you for contributing to this repo! Together, we can make it even better. 😄🚀
+Thank you for contributing to this repo! Together, we can make it even better.
