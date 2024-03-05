@@ -288,11 +288,39 @@ export const workData = [
       </>
     ),
   },
+  // {
+  //   company: "Kaamugu Sdn Bhd",
+  //   designation: "Junior fullstack developer",
+  //   duration: "June 2019 – July 2020",
+  //   companyImg: "kaamugu-sdn-bhd.png",
+  //   description: (
+  //     <>
+  //       <ul>
+  //         <li>
+  //           Collaborated with a small development team to build and maintain web
+  //           applications using modern front-end technologies such as HTML, CSS,
+  //           and JavaScript frameworks like React.
+  //         </li>
+  //         <li>
+  //           Assisted in back-end development using Python and Django framework,
+  //           implementing RESTful APIs and database integration to deliver
+  //           efficient and scalable solutions.
+  //         </li>
+  //         <li>
+  //           Actively participated in code reviews, debugging, and
+  //           troubleshooting to ensure the quality and functionality of web
+  //           applications while continuously enhancing technical skills in web
+  //           development.
+  //         </li>
+  //       </ul>
+  //     </>
+  //   ),
+  // },
   {
-    company: "Kaamugu Sdn Bhd",
-    designation: "Junior fullstack developer",
+    company: "FABA Technology",
+    designation: "junior fullstack developer",
     duration: "June 2019 – July 2020",
-    companyImg: "kaamugu-sdn-bhd.png",
+    companyImg: "fava.svg",
     description: (
       <>
         <ul>
