@@ -2,9 +2,9 @@ import Favicon from "/public/images/favicon.png";
 import ClientRootLayout from "../components/ClientRootLayout";
 
 export const metadata = {
-  title: "Ming Chen | Web Developer",
+  title: "Ming Chen | Frontend Engineer",
   description:
-    "Welcome to Chen's Web Developer Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+    "Welcome to Chen's Frontend Engineer Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
   keywords: [
     "portfolio",
     "app",

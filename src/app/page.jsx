@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Ming Chen", "Fullstack Developer"],
+      strings: ["Ming Chen", "Frontend Engineer"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,

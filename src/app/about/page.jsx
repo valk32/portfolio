@@ -45,7 +45,7 @@ const Page = () => {
                 <br />
                 <Text>
                   I&apos;m <span className="name">Ming Chen</span>, a passionate
-                  software developer. I specialize in{" "}
+                  software engineer. I specialize in{" "}
                   <span className="tech">Web Development</span>, crafting
                   seamless user experiences and robust backend solutions. With a
                   knack for problem-solving, I thrive on creating elegant code
@@ -56,7 +56,7 @@ const Page = () => {
                 <br />
                 <Text>
                   Open to collaborations and exciting projects, I&apos;m eager
-                  to connect with fellow developers and tech enthusiasts.
+                  to connect with fellow engineers and tech enthusiasts.
                   Let&apos;s build something amazing together!
                 </Text>
                 <Text>
